@@ -171,34 +171,71 @@ main {
   font-size: 35px;
   font-weight: 700;
 }
-.resume-content{
+
+.resume-content {
   display: flex;
   gap: 25px;
 }
-.resume-item{
+
+.resume-item {
   margin-top: 30px;
   margin-bottom: 30px;
 
 }
 
-.titel{
+.titel {
   color: #474747;
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 10px;
 }
-.subtitle{
- color: #757575;
- font: 20px;
- font-weight: 600;
- margin-bottom: 20px;
+
+.subtitle {
+  color: #757575;
+  font: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
-.description{
+
+.description {
   color: #757575;
   font-size: 16px;
   font-weight: 400;
 }
-.btn-p1{
+
+.btn-p1 {
   margin-top: 50px;
   text-align: center;
+  margin-bottom: 110px;
+}
+
+/* contact style */
+
+.contact {
+  display: flex;
+  gap: 100px;
+  background: #FFF8F3;
+  padding: 130px 200px;
+}
+
+.contact .section-title {
+  text-align: left;
+}
+.contact input[type="text"], input[type="email"], textarea{
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+
+input{
+  height: 64px;
+}
+.lol{
+  margin-bottom: 30px;
+}
+
+.contact a{
+  text-decoration: none;
+  
 }
